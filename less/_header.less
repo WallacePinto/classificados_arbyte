@@ -1,0 +1,101 @@
+header {
+  transition: 0.2s;
+  padding: 25px 0;
+  margin-bottom: 10px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  background-color: transparent;
+  @media only screen and (max-width: 592px) {
+    padding: 10px 0;
+  }
+  .logo {
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 180px;
+    height: 48px;
+  }
+  .list-inline {
+    padding-top: 20px;
+  }
+  .dropdown,
+  .list-inline.pull-left{
+    margin-right: 30px;
+  }
+  .sticky {
+    position: fixed;
+    width: 100%;
+    padding: 48px 0;
+    background-color: @c-white;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    position: sticky;
+    @media only screen and (max-width: 1024px) {
+      padding: 24px 0;
+    }
+    @media only screen and (max-width: 420px) {
+      padding: 12px 0;
+    }
+    .cross_transform(translateY(-100%));
+    .cross_transition(0.5s);
+    .cross_box_shadow(0px, 3px, 5px, 0px, rgba(0, 0, 0, 0.1));
+    &.active {
+      .cross_transform(translateY(0%));
+    }
+    .btn {
+      @media only screen and (max-width: 1024px) {
+        padding: 6px 0;
+      }
+    }
+    h2 {
+      position: relative;
+      display: inline-block;
+      padding-left: 99px;
+      margin: 10px 0;
+      @media only screen and (max-width: 420px) {
+        padding-left: 60px;
+      }
+      .logo {
+        position: absolute;
+        margin: 0;
+        left: 0;
+        top: 0;
+        margin-top: -8px;
+        @media only screen and (max-width: 420px) {
+          margin-top: 0;
+        }
+      }
+    }
+    .btns-group-demo {
+      float: right;
+    }
+  }
+  &.topbar-search {
+    padding: 36px 0 16px;
+    border-bottom: solid 1px @c-border-1;
+    .logo {
+      margin-bottom: 20px;
+    }
+    .search {
+      width: 100%;
+      margin-left: 30px;
+    }
+    .list-inline {
+      margin-left: 30px;
+    }
+  }
+  .container nav ul li a:hover {
+    border-bottom: 5px solid #a8518a;
+  }
+  .list-inline li a {
+    color: #373435;
+    font-weight: bold;
+  }
+  .list-inline li a:hover {
+    color: @c-theme-2;
+    font-weight: bold;
+  }
+  
+}

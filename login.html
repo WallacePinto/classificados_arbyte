@@ -1,157 +1,150 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Arbyte">
+        <title>Login | Classificados Arbyte</title>
 
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <!-- FONTS -->
+        <!--Signika-->
+        <link href="https://fonts.googleapis.com/css?family=Signika:300,400,600,700" rel="stylesheet">
+        <!--Font Awesome-->
+        <link href="fonts/font_awesome/css/font-awesome.css" rel="stylesheet">
 
-    <title>Classificados Arbyte</title>
-    <meta content="" name="descriptison">
-    <meta content="" name="keywords">
+        <!-- STYLESHEET -->
+        <!-- Vendor -->
+        <link href="external/bootstrap/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom -->
+        <link href="css/style.css" rel="stylesheet">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    </head>
+    <body>
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-</head>
-
-<body>
-
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top ">
-        <div class="container d-flex align-items-center">
-
-            <h3 class="logo mr-auto"><a href="index.html">Classificados Arbyte</a></h3>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-            <nav class="nav-menu d-none d-lg-block">
-                <ul>
-                    <li class="active"><a href="index.html">Início</a></li>
-                    <li><a href="#footer">Contato</a></li>
-                    <li></li>
-                </ul>
-            </nav>
-            <!-- .nav-menu -->
-
-        </div>
-    </header>
-    <!-- End Header -->
-
-    <section id="hero">
-        <div id="login" class="container">
-            <div>
-                <br><br><br><br><br>
+        <!-- HEADER -->
+        <header>
+            <div class="container">
+                <a href="index.html" class="logo pull-left">
+                    <img src="images/logo-arbyte.png" alt="logo">
+                </a>
+                <nav>
+                    <ul class="list-inline pull-left">
+                        <li><a href="index.html#alunos">Alunos</a></li>
+                        <li><a href="index.html#skills">Skills</a></li>
+                        <li><a href="index.html#depoimentos">Depoimentos</a></li>
+                        <li><a href="index.html#contato">Contato</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="row">
-                <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                    <div class="card card-signin my-5">
-                        <div class="card-body">
-                            <h5 class="card-title text-center">Sign In</h5>
-                            <form class="form-signin">
-                                <div class="form-label-group">
-                                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                                    <label for="inputEmail">Email address</label>
-                                </div>
+        </header>
 
-                                <div class="form-label-group">
-                                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                                    <label for="inputPassword">Password</label>
-                                </div>
-
-                                <div class="custom-control custom-checkbox mb-3">
-                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
-                                    <label class="custom-control-label" for="customCheck1">Remember password</label>
-                                </div>
-                                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
-                            </form>
+        <!-- MAIN -->
+        <main class="login">
+            <div class="container">
+                <section class="text-block mb-90">
+                    <h1 class="text-center">Faça o login na <span class="color-theme">Arbyte</span></h1>
+                </section>
+                <section class="login-form text-center">
+                    <form action="#" method="post" class="mb-40">
+                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                        <div class="ipt-btn-block">
+                            <input type="password" name="password" class="form-control" placeholder="Senha" required>
+                            <input type="submit" class="btn btn-small" value="Entrar">
                         </div>
-                    </div>
-                </div>
+                    </form>
+                    <a href="#" class="font-16 weight-lighter color-theme-hover">Esqueceu sua senha?</a>
+                </section>
             </div>
-        </div>
-    </section>
+        </main>
 
-    <!-- Login Acess -->
-
-    <!-- EndLogin Acess -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-
-        <div class="footer-top">
+        <!-- FOOTER -->
+        <footer>
             <div class="container">
                 <div class="row">
-
-                    <div class="col-lg-5 col-md-6 footer-contact">
-                        <h3 class="detalheContato">Contato</h3>
-                        <p>
-                            <i class="fas fa-mobile-alt">   +55 (11) 9999-9999</i><br>
-                            <i class="far fa-envelope">     contato@contato.com.br</i><br>
-                            <i class="fas fa-map-marker-alt">   Rua Maravilha Ole o Olá, 666 </i><br>
-                            <i class="fas fa-map-pin">    Buraco City - Sampa</i>
-                        </p>
+                    <div class="col-md-4 col-sm-6 col-xs-6">
+                        <a href="index.html" class="logo">
+                            <img src="/images/logo-arbyte.png" alt="logo">
+                        </a>
+                        <p>Mussum Ipsum, cacilds vidis litro abertis. Interagi no mé, cursus quis, vehicula ac nisi. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
                     </div>
-
-                    <div class="col-lg-2 col-md-6 footer-links">
-                        <ul>
+                   <div class="col-md-4 col-sm-6 col-xs-6">
+                        <!--<ul class="footer-menu">
+                            <li>
+                                <a href="#" class="border-decor">Store</a>
+                                <ul>
+                                    <li><a href="works.html">Wordpress</a></li>
+                                    <li><a href="works.html">PSD Theme</a></li>
+                                    <li><a href="works.html">Icons Packs</a></li>
+                                    <li><a href="works.html">Site Template</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="border-decor">Info</a>
+                                <ul>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="contact_support.html">Contact</a></li>
+                                    <li><a href="pricing.html">Pricing</a></li>
+                                    <li><a href="index.html">Blog</a></li>
+                                </ul>
+                            </li>
+                        </ul>-->
+                    </div>
+                    <div class="clearfix hidden-md hidden-lg"></div>
+                    <div class="col-md-4 col-sm-12">
+                        <p>Mussum Ipsum, cacilds vidis litro abertis. Leite de capivaris, leite de mula manquis sem cabeça.</p>
+                        <form action="#" method="post">
+                            <input type="text" class="form-control" placeholder="Insira seu melhor email" />
+                            <input type="submit" class="btn btn-small c-btn-1" value="Eu quero" />
+                        </form>
+                        <ul class="icons">
+                            <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
-
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4></h4>
-                        <ul>
-                        </ul>
+                    <div class="col-md-12">
+                        <div class="copyright pull-right"><a data-toggle="modal" data-target="#politicadeprivacidade">Poítica de Privacidade</a><br> &#169; 2020 Arbyte - Todos os direitos reservados</div>
                     </div>
 
-                    <div class="social-links text-center text-md-right float-md-right pt-3 pt-md-0">
-                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="politicadeprivacidade" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h2 class="modal-title" id="TituloModalLongoExemplo">Politica Privacidade</h2>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>A sua privacidade é importante para nós. É política do Classificados Arbyte respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site <a href=https://www.classificados.arbyte.com.br/>Classificados Arbyte</a>, e outros sites que possuímos e operamos.</p> <p>Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado. </p> <p>Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.</p> <p>Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.</p> <p>O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas <a href='https://politicaprivacidade.com' target='_BLANK'>políticas de privacidade</a>. </p> <p>Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.</p> <p>uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.</p> <h2>Política de Cookies Classificados Arbyte</h2> <h3>O que são cookies?</h3> <p>Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos arquivos baixados no seu computador, para melhorar sua experiência. Esta página descreve quais informações eles coletam, como as usamos e por que às vezes precisamos armazenar esses cookies. Também compartilharemos como você pode impedir que esses cookies sejam armazenados, no entanto, isso pode fazer o downgrade ou 'quebrar' certos elementos da funcionalidade do site.</p> <h3>Como usamos os cookies?</h3> <p>Utilizamos cookies por vários motivos, detalhados abaixo. Infelizmente, na maioria dos casos, não existem opções padrão do setor para desativar os cookies sem desativar completamente a funcionalidade e os recursos que eles adicionam a este site. É recomendável que você deixe todos os cookies se não tiver certeza se precisa ou não deles, caso sejam usados ​​para fornecer um serviço que você usa.</p> <h3>Desativar cookies</h3> <p>Você pode impedir a configuração de cookies ajustando as configurações do seu navegador (consulte a Ajuda do navegador para saber como fazer isso). Esteja ciente de que a desativação de cookies afetará a funcionalidade deste e de muitos outros sites que você visita. A desativação de cookies geralmente resultará na desativação de determinadas funcionalidades e recursos deste site. Portanto, é recomendável que você não desative os cookies.</p> <h3>Cookies que definimos</h3> <ul> <li> Cookies relacionados à conta<br><br> Se você criar uma conta connosco, usaremos cookies para o gerenciamento do processo de inscrição e administração geral. Esses cookies geralmente serão excluídos quando você sair do sistema, porém, em alguns casos, eles poderão permanecer posteriormente para lembrar as preferências do seu site ao sair.<br><br> </li> <li> Cookies relacionados ao login<br><br> Utilizamos cookies quando você está logado, para que possamos lembrar dessa ação. Isso evita que você precise fazer login sempre que visitar uma nova página. Esses cookies são normalmente removidos ou limpos quando você efetua logout para garantir que você possa acessar apenas a recursos e áreas restritas ao efetuar login.<br><br> </li> <li> Cookies relacionados a boletins por e-mail<br><br> Este site oferece serviços de assinatura de boletim informativo ou e-mail e os cookies podem ser usados ​​para lembrar se você já está registrado e se deve mostrar determinadas notificações válidas apenas para usuários inscritos / não inscritos.<br><br> </li> <li> Pedidos processando cookies relacionados<br><br> Este site oferece facilidades de comércio eletrônico ou pagamento e alguns cookies são essenciais para garantir que seu pedido seja lembrado entre as páginas, para que possamos processá-lo adequadamente.<br><br> </li> <li> Cookies relacionados a pesquisas<br><br> Periodicamente, oferecemos pesquisas e questionários para fornecer informações interessantes, ferramentas úteis ou para entender nossa base de usuários com mais precisão. Essas pesquisas podem usar cookies para lembrar quem já participou numa pesquisa ou para fornecer resultados precisos após a alteração das páginas.<br><br> </li> <li> Cookies relacionados a formulários<br><br> Quando você envia dados por meio de um formulário como os encontrados nas páginas de contacto ou nos formulários de comentários, os cookies podem ser configurados para lembrar os detalhes do usuário para correspondência futura.<br><br> </li> <li> Cookies de preferências do site<br><br> Para proporcionar uma ótima experiência neste site, fornecemos a funcionalidade para definir suas preferências de como esse site é executado quando você o usa. Para lembrar suas preferências, precisamos definir cookies para que essas informações possam ser chamadas sempre que você interagir com uma página for afetada por suas preferências.<br> </li> </ul> <h3>Cookies de Terceiros</h3> <p>Em alguns casos especiais, também usamos cookies fornecidos por terceiros confiáveis. A seção a seguir detalha quais cookies de terceiros você pode encontrar através deste site.</p> <ul> <li> Este site usa o Google Analytics, que é uma das soluções de análise mais difundidas e confiáveis ​​da Web, para nos ajudar a entender como você usa o site e como podemos melhorar sua experiência. Esses cookies podem rastrear itens como quanto tempo você gasta no site e as páginas visitadas, para que possamos continuar produzindo conteúdo atraente. </li> </ul> <p>Para mais informações sobre cookies do Google Analytics, consulte a página oficial do Google Analytics.</p> <ul> <li> As análises de terceiros são usadas para rastrear e medir o uso deste site, para que possamos continuar produzindo conteúdo atrativo. Esses cookies podem rastrear itens como o tempo que você passa no site ou as páginas visitadas, o que nos ajuda a entender como podemos melhorar o site para você.</li> <li> Periodicamente, testamos novos recursos e fazemos alterações subtis na maneira como o site se apresenta. Quando ainda estamos testando novos recursos, esses cookies podem ser usados ​​para garantir que você receba uma experiência consistente enquanto estiver no site, enquanto entendemos quais otimizações os nossos usuários mais apreciam.</li> <li> À medida que vendemos produtos, é importante entendermos as estatísticas sobre quantos visitantes de nosso site realmente compram e, portanto, esse é o tipo de dados que esses cookies rastrearão. Isso é importante para você, pois significa que podemos fazer previsões de negócios com precisão que nos permitem analizar nossos custos de publicidade e produtos para garantir o melhor preço possível.</li> </ul><h3>Mais informações</h3> <p>Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.</p> <p>Esta política é efetiva a partir de <strong>Maio</strong>/<strong>2020</strong>.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                </div>
-                <div class="copyright">
-                    &copy; Copyright <strong><span>Classificados Arbyte</span></strong>. All Rights Reserved
-                </div>
-                <div class="credits">
-                    Designed by
-                    <a href="#"></a>
-                </div>
 
+                </div>
             </div>
-        </div>
-        </div>
-    </footer>
-    <!-- End Footer -->
+        </footer>
 
-    <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+        <!-- JAVA SCRIPT -->
+        <script src="external/jquery/jquery.js"></script>
+        <script src="external/bootstrap/bootstrap.min.js"></script>
+        <script src="js/app.js"></script>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/venobox/venobox.min.js"></script>
-    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-</body>
-
+    </body>
 </html>
+
