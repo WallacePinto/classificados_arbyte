@@ -202,12 +202,12 @@ function scrollFunction() {
 // swiper - Carrossel das logos
 
 var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 5,
+    slidesPerView: 7,
     spaceBetween: 149,
     centeredSlides: true,
     loop: true,
     autoplay: {
-        delay: 2500,
+        delay: 1500,
         disableOnInteraction: false,
     },
     pagination: {
