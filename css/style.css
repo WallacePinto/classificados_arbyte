@@ -2150,7 +2150,7 @@ main.home .jumbotron-with-background {
 }
 
 main.home .h1 {
-    width: 1100px;
+    width: auto;
     height: auto;
     max-width: 2600px;
     margin-left: auto;
