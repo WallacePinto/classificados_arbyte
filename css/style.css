@@ -4,6 +4,10 @@
     color: #9E4C80;
 }
 
+body {
+    padding-right: 0 !important
+}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
